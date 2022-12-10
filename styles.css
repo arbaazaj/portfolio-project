@@ -1,0 +1,35 @@
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    text-align: center;
+    margin: 0;
+    height: auto;
+    background: #be3144;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul li {
+    padding: 10px;
+    margin-right: 20px;
+    display: inline;
+    text-decoration: none;
+    float: right;
+}
